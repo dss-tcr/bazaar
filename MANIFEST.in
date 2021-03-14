@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include bazaar *.css
+recursive-include bazaar *.csv
+recursive-include bazaar *.html
+recursive-include bazaar *.ico
+recursive-include bazaar *.js
+recursive-include bazaar *.json
+recursive-include bazaar *.md
+recursive-include bazaar *.png
+recursive-include bazaar *.py
+recursive-include bazaar *.svg
+recursive-include bazaar *.txt
+recursive-exclude bazaar *.pyc
