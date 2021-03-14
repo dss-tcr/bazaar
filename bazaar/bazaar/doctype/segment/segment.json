@@ -7,7 +7,7 @@
  "engine": "InnoDB",
  "field_order": [
   "segment",
-  "segment_naming_series",
+  "naming_series",
   "disabled",
   "lft",
   "rgt",
@@ -23,11 +23,6 @@
    "label": "Segment",
    "reqd": 1,
    "unique": 1
-  },
-  {
-   "fieldname": "segment_naming_series",
-   "fieldtype": "Data",
-   "label": "Segment Naming Series"
   },
   {
    "default": "0",
@@ -68,12 +63,17 @@
    "fieldtype": "Link",
    "label": "Parent Segment",
    "options": "Segment"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Data",
+   "label": "Segment Naming Series"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_tree": 1,
  "links": [],
- "modified": "2021-03-14 17:50:43.557883",
+ "modified": "2021-03-14 19:27:37.603657",
  "modified_by": "Administrator",
  "module": "Bazaar",
  "name": "Segment",
