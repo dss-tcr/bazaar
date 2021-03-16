@@ -67,13 +67,14 @@
   {
    "fieldname": "naming_series",
    "fieldtype": "Data",
-   "label": "Segment Naming Series"
+   "label": "Segment Naming Series",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_tree": 1,
  "links": [],
- "modified": "2021-03-14 19:27:37.603657",
+ "modified": "2021-03-16 10:43:14.900259",
  "modified_by": "Administrator",
  "module": "Bazaar",
  "name": "Segment",
