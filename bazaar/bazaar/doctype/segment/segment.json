@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_rename": 1,
  "autoname": "field:segment",
  "creation": "2021-03-14 17:47:40.808315",
  "doctype": "DocType",
@@ -8,7 +9,6 @@
  "field_order": [
   "segment",
   "naming_series",
-  "disabled",
   "lft",
   "rgt",
   "is_group",
@@ -23,12 +23,6 @@
    "label": "Segment",
    "reqd": 1,
    "unique": 1
-  },
-  {
-   "default": "0",
-   "fieldname": "disabled",
-   "fieldtype": "Check",
-   "label": "Disabled"
   },
   {
    "fieldname": "lft",
@@ -74,7 +68,7 @@
  "index_web_pages_for_search": 1,
  "is_tree": 1,
  "links": [],
- "modified": "2021-03-16 10:43:14.900259",
+ "modified": "2021-03-17 12:54:00.666438",
  "modified_by": "Administrator",
  "module": "Bazaar",
  "name": "Segment",
